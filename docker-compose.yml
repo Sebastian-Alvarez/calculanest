@@ -1,0 +1,7 @@
+services:
+  calculanest:
+    image: calculanest
+    container_name: calculanest
+    ports:
+      - "3001:3000"
+    restart: unless-stopped
